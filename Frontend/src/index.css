@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-slate-900 antialiased selection:bg-blue-100 selection:text-blue-900;
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    background-color: #EEF5FD;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Nexora ethereal gradient background */
+.nexora-mesh-bg {
+  background: 
+    radial-gradient(circle at 65% 35%, rgba(219, 234, 254, 0.75) 0%, rgba(240, 246, 255, 0.4) 45%, transparent 70%),
+    radial-gradient(circle at 20% 45%, rgba(224, 242, 254, 0.6) 0%, rgba(240, 246, 255, 0.3) 40%, transparent 60%),
+    radial-gradient(circle at 50% 90%, rgba(219, 234, 254, 0.5) 0%, transparent 60%),
+    #EEF5FD;
+}
+
+/* Glassmorphism card utility */
+.nexora-glass {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px -5px rgba(37, 99, 235, 0.06), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
+}
+
+.nexora-glass:hover {
+  box-shadow: 0 20px 40px -8px rgba(37, 99, 235, 0.12), 0 8px 20px -4px rgba(15, 23, 42, 0.05);
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #EEF5FD;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+@keyframes wavePulse {
+  0%, 100% {
+    transform: scaleY(0.35);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.animate-waveform {
+  animation: wavePulse 1.2s ease-in-out infinite;
+}

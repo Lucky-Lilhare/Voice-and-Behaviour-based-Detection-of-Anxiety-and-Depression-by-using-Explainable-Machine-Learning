@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "4fd5c8e1-13c7-46b7-98e7-ea33f8494588",
+    "title": "Webcam permission re-prompt after tab backgrounding",
+    "description": "If user switches to another browser tab during video recording and returns, camera feed flickers once before resuming.",
+    "reportedBy": "Alex Chen",
+    "email": "alex.chen@gmail.com",
+    "category": "Camera/Video Action Units",
+    "severity": "Medium",
+    "status": "Investigating",
+    "stepsToReproduce": "Switch tabs while AU tracking is running and switch back after 10 seconds.",
+    "deviceInfo": "Chrome 127 / Windows 11",
+    "createdAt": "2026-10-29T07:34:22.213Z",
+    "updatedAt": "2026-10-29T07:34:22.213Z"
+  },
+  {
+    "_id": "203ad696-8dfa-41fb-8431-723a555d784c",
+    "title": "Bluetooth headset sampling rate warning on Firefox",
+    "description": "A warning toast appeared stating audio sample rate was clamped to 44.1kHz instead of 48kHz when connected via AirPods on Firefox.",
+    "reportedBy": "Dev Tester",
+    "email": "qa@nexora.health",
+    "category": "Microphone/Audio Glitch",
+    "severity": "Low",
+    "status": "Open",
+    "stepsToReproduce": "1. Connect AirPods Pro via Bluetooth\n2. Open Firefox on macOS\n3. Click Start Voice Assessment",
+    "deviceInfo": "Firefox 128 / macOS Sonoma",
+    "createdAt": "2026-10-29T07:34:22.207Z",
+    "updatedAt": "2026-10-29T07:34:22.207Z"
+  },
+  {
+    "_id": "17e84e3c-ac37-4f01-915d-0733ed820254",
+    "title": "Stereo audio channel balance warning",
+    "description": "When using external USB audio interface, right channel showed higher SNR.",
+    "reportedBy": "Anonymous User",
+    "email": "",
+    "category": "Microphone/Audio Glitch",
+    "severity": "Low",
+    "stepsToReproduce": "",
+    "deviceInfo": "",
+    "status": "Open",
+    "createdAt": "2026-10-29T07:11:43.132Z",
+    "updatedAt": "2026-10-29T07:11:43.132Z"
+  },
+  {
+    "_id": "15b81c79-b25a-4231-8f82-bd4585979d04",
+    "title": "Webcam permission re-prompt after tab backgrounding",
+    "description": "If user switches to another browser tab during video recording and returns, camera feed flickers once before resuming.",
+    "reportedBy": "Alex Chen",
+    "email": "alex.chen@gmail.com",
+    "category": "Camera/Video Action Units",
+    "severity": "Medium",
+    "status": "Investigating",
+    "stepsToReproduce": "Switch tabs while AU tracking is running and switch back after 10 seconds.",
+    "deviceInfo": "Chrome 127 / Windows 11",
+    "createdAt": "2026-10-29T07:04:57.384Z",
+    "updatedAt": "2026-10-29T07:04:57.384Z"
+  },
+  {
+    "_id": "36bb397b-4d48-46ca-a156-fc1de2603a60",
+    "title": "Bluetooth headset sampling rate warning on Firefox",
+    "description": "A warning toast appeared stating audio sample rate was clamped to 44.1kHz instead of 48kHz when connected via AirPods on Firefox.",
+    "reportedBy": "Dev Tester",
+    "email": "qa@nexora.health",
+    "category": "Microphone/Audio Glitch",
+    "severity": "Low",
+    "status": "Open",
+    "stepsToReproduce": "1. Connect AirPods Pro via Bluetooth\n2. Open Firefox on macOS\n3. Click Start Voice Assessment",
+    "deviceInfo": "Firefox 128 / macOS Sonoma",
+    "createdAt": "2026-10-29T07:04:57.382Z",
+    "updatedAt": "2026-10-29T07:04:57.382Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "483ea701-d16f-4c18-a406-dcc391457a92",
+    "name": "Dr. John Watson",
+    "email": "watson@bakerst.uk",
+    "rating": 5,
+    "category": "Model Accuracy",
+    "feedback": "Fantastic precision in tracking fundamental frequency perturbations!",
+    "sentiment": "Positive",
+    "status": "New",
+    "createdAt": "2026-10-29T07:11:43.125Z"
+  },
+  {
+    "_id": "359fe1b2-729f-42c7-a40e-76e86510b879",
+    "name": "Jessica Wu",
+    "email": "jess.wu@student.cmu.edu",
+    "rating": 4,
+    "category": "Assessment Speed",
+    "feedback": "Extremely fast client-side inference! Would love an option to re-record individual voice prompts if background noise occurs.",
+    "sentiment": "Positive",
+    "createdAt": "2026-10-29T07:04:57.380Z",
+    "status": "New"
+  },
+  {
+    "_id": "833a8882-def7-425c-b9d9-3f066af28882",
+    "name": "Dr. Kevin Patel",
+    "email": "kevin.p@mindwell.org",
+    "rating": 5,
+    "category": "Model Accuracy",
+    "feedback": "SHAP attribution breakdown in the explainability dashboard matches empirical psychiatric findings remarkably well.",
+    "sentiment": "Positive",
+    "createdAt": "2026-10-29T07:04:57.378Z",
+    "status": "New"
+  },
+  {
+    "_id": "3385147d-177b-4b00-ab18-f960345b9b09",
+    "name": "Elena Rostova",
+    "email": "elena.rostova@techlabs.de",
+    "rating": 5,
+    "category": "UI/UX Experience",
+    "feedback": "The new ethereal glass UI and live audio visualizer are mesmerizing. The assessment is soothing and completely non-intrusive.",
+    "sentiment": "Positive",
+    "createdAt": "2026-10-29T07:04:57.375Z",
+    "status": "New"
+  }
+]
